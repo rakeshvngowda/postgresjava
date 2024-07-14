@@ -1,0 +1,13 @@
+package postgresjava.example.postgresjava;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class PostgresjavaApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(PostgresjavaApplication.class, args);
+	}
+
+}
